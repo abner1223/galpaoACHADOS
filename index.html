@@ -1,310 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galpão dos Achados - Variedades com Preços Imbatíveis</title>
-  <meta name="description" content="Galpão dos Achados - variedades em geral com preço que cabe no bolso. Achadinhos pra casa, presentes e muito mais.">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galpão dos Achados</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- HEADER -->
-<header class="site-header">
-  <div class="container header-inner">
-    <a href="#" class="logo">
-      <span class="logo-mark">G</span>
-      Galpão dos Achados
-    </a>
-    <button class="menu-toggle">☰</button>
-    <nav>
-      <ul>
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#catalogo">Catálogo</a></li>
-        <li><a href="#pedido">Pedido</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-    <div class="header-cta">
-      <a href="#catalogo" class="btn btn-outline">Ver Catálogo</a>
-      <a href="#contato" class="btn btn-whats">📱 WhatsApp</a>
+<header>
+    <div class="container">
+        <img src="LOGO-GALPAO.png" alt="Galpão dos Achados" class="logo">
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#pedido">Pedido</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </div>
-  </div>
 </header>
 
-<!-- HERO -->
-<section class="hero" id="inicio">
-  <div class="container hero-content">
-    <div class="hero-left">
-      <a href="#catalogo" class="side-btn">🛍️ Ver Catálogo</a>
-      <a href="#pedido" class="side-btn">🛒 Fazer Pedido</a>
-      <a href="#sobre" class="side-btn">📖 Nossa História</a>
-      <a href="#contato" class="side-btn">📍 Contato</a>
-    </div>
-
-    <div class="hero-center">
-      <h1>Galpão dos Achados</h1>
-      <div class="hero-divider"></div>
-      <p class="tagline">Variedades pra todo mundo, com preço que cabe no bolso.</p>
-    </div>
-
-    <div class="hero-right">
-      <div class="menu-card">
-        <h3>NOSSAS CATEGORIAS</h3>
-        <ul>
-          <li>Utilidades pra casa</li>
-          <li>Presentes</li>
-          <li>Beleza e higiene</li>
-          <li>Papelaria</li>
-          <li>Brinquedos</li>
-          <li>Achadinhos do dia</li>
-        </ul>
-      </div>
-    </div>
-  </div>
+<section id="inicio" class="hero">
+    <h1>Galpão dos Achados</h1>
+    <p>Variedades pra todo mundo, com preço que cabe no bolso.</p>
 </section>
 
-<!-- QUEM SOMOS -->
-<section id="sobre">
-  <div class="container">
-    <h2 class="section-title">Nossa História</h2>
-    <div class="section-divider"></div>
+<script src="script.js"></script>
 
-    <div class="about-grid">
-      <div class="about-text">
-        <p>O <strong>Galpão dos Achados</strong> nasceu pra ser aquele lugar que todo mundo precisa: variedade, preço bom e atendimento de gente que se importa.</p>
-        <p>Aqui você encontra de tudo um pouco — <strong>utilidades pra casa</strong>, <strong>presentes</strong>, <strong>papelaria</strong>, <strong>beleza</strong>, <strong>brinquedos</strong> e aqueles achadinhos que só a gente tem.</p>
-        <p>A gente acredita que comprar bem não precisa ser caro. Selecionamos cada produto pensando em <strong>qualidade, utilidade e preço justo</strong>. Se você ainda não conhece, vem dar uma olhada!</p>
-      </div>
-
-      <div class="cards-col">
-        <div class="info-card">
-          <h4>Por que comprar com a gente</h4>
-          <p>Variedade grande, preço bom e atendimento humanizado. Aqui você é tratado como gente, não como número.</p>
-        </div>
-        <div class="info-card">
-          <h4>Nossos Diferenciais</h4>
-          <div class="values-grid">
-            <div class="value-pill">Variedade</div>
-            <div class="value-pill">Preço justo</div>
-            <div class="value-pill">Achadinhos novos</div>
-            <div class="value-pill">Atendimento humano</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CATÁLOGO -->
-<section id="catalogo" class="section-alt">
-  <div class="container">
-    <h2 class="section-title">Nosso Catálogo</h2>
-    <div class="section-divider"></div>
-
-    <div class="catalog-grid">
-      <div class="product-card">
-        <div class="product-img">🏠</div>
-        <div class="product-info">
-          <h3>Utilidades pra Casa</h3>
-          <p>Organizadores, panos, recipientes, ferramentas de cozinha e muito mais.</p>
-          <div class="product-price">A partir de R$ 5,00</div>
-          <button class="btn btn-accent btn-pedir" data-produto="Utilidades pra Casa">Ver Opções</button>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-img">🎁</div>
-        <div class="product-info">
-          <h3>Presentes</h3>
-          <p>Opções pra todas as ocasiões: aniversário, dia das mães, namorados, amigo secreto.</p>
-          <div class="product-price">A partir de R$ 10,00</div>
-          <button class="btn btn-accent btn-pedir" data-produto="Presentes">Ver Opções</button>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-img">📒</div>
-        <div class="product-info">
-          <h3>Papelaria</h3>
-          <p>Cadernos, canetas, agendas, planners e tudo que você precisa pros estudos e trabalho.</p>
-          <div class="product-price">A partir de R$ 3,00</div>
-          <button class="btn btn-accent btn-pedir" data-produto="Papelaria">Ver Opções</button>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-img">💄</div>
-        <div class="product-info">
-          <h3>Beleza e Higiene</h3>
-          <p>Produtos selecionados pra cuidar de você de cabeça aos pés, com preço que cabe.</p>
-          <div class="product-price">A partir de R$ 4,00</div>
-          <button class="btn btn-accent btn-pedir" data-produto="Beleza e Higiene">Ver Opções</button>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-img">🧸</div>
-        <div class="product-info">
-          <h3>Brinquedos</h3>
-          <p>Diversão pras crianças (e os adultos também!). Brinquedos seguros e divertidos.</p>
-          <div class="product-price">A partir de R$ 8,00</div>
-          <button class="btn btn-accent btn-pedir" data-produto="Brinquedos">Ver Opções</button>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-img">⭐</div>
-        <div class="product-info">
-          <h3>Achadinhos do Dia</h3>
-          <p>Novidades toda semana! Produtos exclusivos e em promoção por tempo limitado.</p>
-          <div class="product-price">Ofertas</div>
-          <button class="btn btn-accent btn-pedir" data-produto="Achadinhos do Dia">Ver Ofertas</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- PEDIDO -->
-<section id="pedido">
-  <div class="container">
-    <h2 class="section-title">Faça Seu Pedido</h2>
-    <div class="section-divider"></div>
-
-    <div class="order-grid">
-      <div class="order-info">
-        <h3>Como funciona</h3>
-        <ul>
-          <li>Escolha a categoria do produto</li>
-          <li>Preencha o formulário ao lado</li>
-          <li>Enviamos a lista completa pelo WhatsApp</li>
-          <li>Você escolhe, a gente separa e combina a entrega</li>
-          <li>Pagamento na entrega ou via Pix</li>
-        </ul>
-        <p style="margin-top:22px;">
-          <strong>Prefere falar direto?</strong><br>
-          <span style="color:var(--accent); font-size:.9rem;">⚠️ Telefone será adicionado em breve</span>
-        </p>
-      </div>
-
-      <form class="order-form" id="order-form" data-whats="5500000000000">
-        <div class="form-group">
-          <label for="nome">Seu nome *</label>
-          <input type="text" id="nome" name="nome" required placeholder="Nome completo">
-        </div>
-        <div class="form-group">
-          <label for="telefone">Telefone *</label>
-          <input type="tel" id="telefone" name="telefone" required placeholder="(00) 99999-9999">
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="produto">Categoria *</label>
-            <select id="produto" name="produto" required>
-              <option value="">Escolha...</option>
-              <option>Utilidades pra Casa</option>
-              <option>Presentes</option>
-              <option>Papelaria</option>
-              <option>Beleza e Higiene</option>
-              <option>Brinquedos</option>
-              <option>Achadinhos do Dia</option>
-              <option>Outra categoria</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="quantidade">Quantos itens</label>
-            <input type="number" id="quantidade" name="quantidade" min="1" value="1">
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="obs">Descreva o que procura *</label>
-          <textarea id="obs" name="obs" placeholder="Ex: 'Procuro organizadores de gaveta', 'preciso de um presente pra mãe', 'caderno A5 colorido'..." required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
-          📲 Enviar Pedido pelo WhatsApp
-        </button>
-      </form>
-    </div>
-  </div>
-</section>
-
-<!-- LOCALIZAÇÃO -->
-<section id="localizacao" class="section-alt">
-  <div class="container">
-    <h2 class="section-title">Onde Estamos</h2>
-    <div class="section-divider"></div>
-    <div class="map-wrap">
-      <div class="map-placeholder">
-        <i>📍</i>
-        <h3>Endereço será adicionado em breve</h3>
-        <p>Em breve traremos nossa localização e mapa.<br>
-        Por enquanto, fale com a gente!</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CONTATO -->
-<section id="contato">
-  <div class="container">
-    <h2 class="section-title">Fale Conosco</h2>
-    <div class="section-divider"></div>
-
-    <div class="contact-grid">
-      <div class="contact-card">
-        <div class="contact-icon">📱</div>
-        <h4>WhatsApp</h4>
-        <p>Em breve</p>
-      </div>
-      <div class="contact-card">
-        <div class="contact-icon">📷</div>
-        <h4>Instagram</h4>
-        <p>Em breve</p>
-      </div>
-      <div class="contact-card">
-        <div class="contact-icon">⏰</div>
-        <h4>Horário</h4>
-        <p>Seg a Sáb<br>9h às 18h</p>
-      </div>
-      <div class="contact-card">
-        <div class="contact-icon">🚚</div>
-        <h4>Entrega</h4>
-        <p>Consulte a área<br>de entrega</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <h5>Galpão dos Achados</h5>
-        <p>Variedades com preço que cabe no bolso.<br>O seu achadinho está aqui.</p>
-      </div>
-      <div>
-        <h5>Links</h5>
-        <p>
-          <a href="#sobre">Nossa História</a><br>
-          <a href="#catalogo">Catálogo</a><br>
-          <a href="#pedido">Pedido</a>
-        </p>
-      </div>
-      <div>
-        <h5>Contato</h5>
-        <p>📱 Em breve<br>📷 Em breve</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      © 2026 Galpão dos Achados. Todos os direitos reservados.
-    </div>
-  </div>
-</footer>
-
-<a href="#pedido" class="float-whats" title="Fale conosco">💬</a>
-
-<script src="js/script.js"></script>
 </body>
 </html>
